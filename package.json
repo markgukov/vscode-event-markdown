@@ -1,0 +1,30 @@
+{
+    "name": "emd",
+    "displayName": "Event Markdown",
+    "description": "Support for Event Markdown syntax",
+    "version": "0.0.1",
+    "publisher": "markgukov",
+    "author": {
+        "name": "Mark Gukov",
+        "url": "http://markgukov.com"
+    },
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "emd",
+            "aliases": ["Event Markdown", "emd"],
+            "extensions": [".emd"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "emd",
+            "scopeName": "emd",
+            "path": "./syntaxes/emd.tmLanguage.json"
+        }]
+    }
+}

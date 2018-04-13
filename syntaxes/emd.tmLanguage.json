@@ -1,0 +1,53 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Event Markdown",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#commands"
+		},
+		{
+			"include": "#documents"
+		},
+		{
+			"include": "#events"
+		}
+	],
+	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment",
+					"match": "#(.*)"
+				}
+			]
+		},
+		"commands": {
+			"patterns": [
+				{
+					"name": "support.type",
+					"match": "(.*)->(.*)"
+				}
+			]
+		},
+		"events": {
+			"patterns": [
+				{
+					"name": "markup.changed.git_gutter.emd",
+					"match": "(.*)"
+				}
+			]
+		},
+		"documents": {
+			"patterns": [
+				{
+					"name": "markup.heading.emd",
+					"match": "(.*)\\*(.*)"
+				}
+			]
+		}
+	},
+	"scopeName": "emd"
+}
