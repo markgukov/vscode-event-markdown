@@ -10,14 +10,6 @@ Currently it adds simple syntax highlighting.
 
 The color theme has to be set to Monokai.
 
-## Installation
-
-Since the extension hasn't been published yet, to load it you need to copy the files to your VS Code extensions directory. Depending on your platform, it is located in the following directories:
-
-* Windows `%USERPROFILE%\.vscode\extensions`
-* Mac `~/.vscode/extensions`
-* Linux `~/.vscode/extensions`
-
 ## Known Issues
 
 * The extension is using Monokai-specific color names/scopes.
@@ -25,6 +17,10 @@ Since the extension hasn't been published yet, to load it you need to copy the f
 
 ## Release Notes
 
+### 0.0.4
+
+* Published the extension
+
 ### 0.0.1
 
-Initial release
+* Initial release
