@@ -1,6 +1,6 @@
 # README
 
-A Visual Studio Code extension that adds language support for Event Markdown (`.emd`). 
+A Visual Studio Code extension that adds language support for Event Markdown (https://github.com/Adaptech/les), which let's you build complete CQRS/ES systems straight from Event Storming.
 
 ## Features
 
