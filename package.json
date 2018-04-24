@@ -2,7 +2,7 @@
     "name": "emd",
     "displayName": "Event Markdown",
     "description": "Support for Event Markdown syntax",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "markgukov",
     "author": {
         "name": "Mark Gukov",
@@ -26,11 +26,6 @@
             "language": "emd",
             "scopeName": "text.html.emd",
             "path": "./syntaxes/emd.tmLanguage.json"
-        }],
-		"themes": [{
-            "label": "EMD",
-            "uiTheme": "vs-dark",
-            "path": "./themes/emd-color-theme.json"
         }]
     }
 }
