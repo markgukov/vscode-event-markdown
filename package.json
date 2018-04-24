@@ -2,7 +2,7 @@
     "name": "emd",
     "displayName": "Event Markdown",
     "description": "Support for Event Markdown syntax",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "markgukov",
     "author": {
         "name": "Mark Gukov",

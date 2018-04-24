@@ -17,7 +17,7 @@ The color theme has to be set to Monokai.
 
 ## Release Notes
 
-### 0.0.5
+### 0.0.6
 
 * Published the extension
 
